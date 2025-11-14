@@ -21,14 +21,7 @@ const Login: React.FC<LoginProps> = ({ onLoginSuccess }) => {
 
   return (
     <div className="relative min-h-screen bg-custom-bg flex flex-col items-center justify-center p-4">
-        <div 
-            className="absolute inset-0 z-0 bg-no-repeat bg-center"
-            style={{
-                backgroundImage: `url(${logoBase64})`,
-                backgroundSize: 'contain',
-                opacity: 0.1,
-            }}
-        ></div>
+        
         <div className="relative z-10 w-full max-w-md">
             <div className="bg-custom-card shadow-2xl rounded-2xl px-8 pt-10 pb-8 mb-4">
                 <div className="text-center mb-10">
